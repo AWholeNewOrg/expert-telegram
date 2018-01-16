@@ -1,4 +1,4 @@
 task "ci" {
-  command = "echo hello world"
-  runnerType = "Shell"
+	command = "script/cibuild"
+	runnerType = "Shell"
 }
