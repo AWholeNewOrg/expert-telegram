@@ -1,4 +1,4 @@
 task "ci" {
-	command = "echo hello Avinash"
+	command = "echo hello Daniel"
 	runnerType = "Shell"
 }
