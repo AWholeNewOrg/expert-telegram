@@ -1,14 +1,10 @@
 task "ci" {
-	command = "echo hello Daniel"
-	runnerType = "Shell"
-}
-
-task "ci2" {
-	command = "env"
+	command = "script/cibuild"
 	runnerType = "Shell"
 	env =  {
         FOO = "BAR"
         BAZ = "QUX"
 	}
-
 }
+
+
