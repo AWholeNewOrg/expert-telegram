@@ -5,6 +5,7 @@ task "ci" {
         FOO = "BAR"
         BAZ = "QUX"
 	}
+	workDir = "./AWholeNewOrg"
 }
 
 task "ls" {
