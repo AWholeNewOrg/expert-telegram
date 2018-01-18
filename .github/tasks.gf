@@ -7,4 +7,11 @@ task "ci" {
 	}
 }
 
-
+task "ls" {
+	command = "ls -haltr"
+	runnerType = "Shell"
+	env =  {
+        FOO = "BAR"
+        BAZ = "QUX"
+	}
+}
