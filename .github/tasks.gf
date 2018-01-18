@@ -4,9 +4,8 @@ task "ci" {
 }
 
 task "ci2" {
-	command = "echo hello world"
+	command = "echo hello $FOO"
 	runnerType = "Shell"
-	workDir = "./tmp"
 	env =  {
         FOO = "BAR"
         BAZ = "QUX"
