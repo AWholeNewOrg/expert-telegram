@@ -4,7 +4,7 @@ task "ci" {
 }
 
 task "ci2" {
-	command = "echo hello $FOO"
+	command = "env"
 	runnerType = "Shell"
 	env =  {
         FOO = "BAR"
