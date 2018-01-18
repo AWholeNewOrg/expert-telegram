@@ -8,8 +8,8 @@ task "ci" {
 	workDir = "./AWholeNewOrg/expert-telegram"
 }
 
-task "lint" {
-	command = "script/cibuild"
+task "missing" {
+	command = "script/blahblah"
 	runnerType = "Shell"
 	env =  {
 		FOO = "BAR"
