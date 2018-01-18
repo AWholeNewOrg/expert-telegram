@@ -15,4 +15,5 @@ task "ls" {
         FOO = "BAR"
         BAZ = "QUX"
 	}
+	workDir = "./AWholeNewOrg"
 }
