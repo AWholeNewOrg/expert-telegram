@@ -5,7 +5,7 @@ task "ci" {
         FOO = "BAR"
         BAZ = "QUX"
 	}
-	workDir = "./AWholeNewOrg"
+	workDir = "./AWholeNewOrg/expert-telegram"
 }
 
 task "ls" {
@@ -15,5 +15,5 @@ task "ls" {
         FOO = "BAR"
         BAZ = "QUX"
 	}
-	workDir = "./AWholeNewOrg"
+	workDir = "./AWholeNewOrg/expert-telegram"
 }
